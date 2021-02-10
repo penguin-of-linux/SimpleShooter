@@ -1,0 +1,2216 @@
+fileFormatVersion: 2
+guid: d9fcb009bfa1f13499aff4f2b472511b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2188822322175657671
+    second: hard_sand_0
+  - first:
+      213: 3034150941669425288
+    second: hard_sand_1
+  - first:
+      213: -3254422116727190216
+    second: hard_sand_2
+  - first:
+      213: -5215188141528991409
+    second: hard_sand_3
+  - first:
+      213: -8500823962905907636
+    second: hard_sand_4
+  - first:
+      213: 2160286966839764687
+    second: hard_sand_5
+  - first:
+      213: -2653843729356993104
+    second: hard_sand_6
+  - first:
+      213: -7339005586095419505
+    second: hard_sand_7
+  - first:
+      213: -9146126487382559812
+    second: hard_sand_8
+  - first:
+      213: 8327907644752932994
+    second: hard_sand_9
+  - first:
+      213: -1966765334304930586
+    second: hard_sand_10
+  - first:
+      213: -8102632397433862520
+    second: hard_sand_11
+  - first:
+      213: 7653129919560507898
+    second: hard_sand_12
+  - first:
+      213: -8840889285896205475
+    second: hard_sand_13
+  - first:
+      213: 8366141759290981265
+    second: hard_sand_14
+  - first:
+      213: 8246533464552124457
+    second: hard_sand_15
+  - first:
+      213: -6377358803788150427
+    second: hard_sand_16
+  - first:
+      213: -4688898190957003228
+    second: hard_sand_17
+  - first:
+      213: -8220578453667998614
+    second: hard_sand_18
+  - first:
+      213: 2623234641031925243
+    second: hard_sand_19
+  - first:
+      213: 3082450817301932557
+    second: hard_sand_20
+  - first:
+      213: -2235957133696687451
+    second: hard_sand_21
+  - first:
+      213: -408113494896149237
+    second: hard_sand_22
+  - first:
+      213: 9052122868180495556
+    second: hard_sand_23
+  - first:
+      213: -5383483898829816461
+    second: hard_sand_24
+  - first:
+      213: -2999367100830656160
+    second: hard_sand_25
+  - first:
+      213: 5850350137821907084
+    second: hard_sand_26
+  - first:
+      213: 4635265047624332562
+    second: hard_sand_27
+  - first:
+      213: -1474609291240269971
+    second: hard_sand_28
+  - first:
+      213: 3900834019560099268
+    second: hard_sand_29
+  - first:
+      213: -6410792779983656676
+    second: hard_sand_30
+  - first:
+      213: 1460944317421688931
+    second: hard_sand_31
+  - first:
+      213: 6779175861107227093
+    second: hard_sand_32
+  - first:
+      213: -7934296975478676148
+    second: hard_sand_33
+  - first:
+      213: -3498012388287147639
+    second: hard_sand_34
+  - first:
+      213: 6434882285569377202
+    second: hard_sand_35
+  - first:
+      213: -3891647148278894640
+    second: hard_sand_36
+  - first:
+      213: -484086844841919098
+    second: hard_sand_37
+  - first:
+      213: 3546476893667805098
+    second: hard_sand_38
+  - first:
+      213: 2448654225639556693
+    second: hard_sand_39
+  - first:
+      213: -9156732322038233943
+    second: hard_sand_40
+  - first:
+      213: -7813457085366369534
+    second: hard_sand_41
+  - first:
+      213: -6258912750521488777
+    second: hard_sand_42
+  - first:
+      213: -6434535855957205274
+    second: hard_sand_43
+  - first:
+      213: -4506521236901732320
+    second: hard_sand_44
+  - first:
+      213: 4694429525522784759
+    second: hard_sand_45
+  - first:
+      213: -834575993776040722
+    second: hard_sand_46
+  - first:
+      213: -6912039517782985859
+    second: hard_sand_47
+  - first:
+      213: -2369393236415729904
+    second: hard_sand_48
+  - first:
+      213: 8057879723497371256
+    second: hard_sand_49
+  - first:
+      213: 4467169615398880654
+    second: hard_sand_50
+  - first:
+      213: 3367796095859053673
+    second: hard_sand_51
+  - first:
+      213: -8819883978952545780
+    second: hard_sand_52
+  - first:
+      213: -2018214397867325687
+    second: hard_sand_53
+  - first:
+      213: 6485293236676902518
+    second: hard_sand_54
+  - first:
+      213: -6443651246370493438
+    second: hard_sand_55
+  - first:
+      213: -4927610614726256341
+    second: hard_sand_56
+  - first:
+      213: -2434830991014379650
+    second: hard_sand_57
+  - first:
+      213: -5153767182947602852
+    second: hard_sand_58
+  - first:
+      213: -6163095480870897966
+    second: hard_sand_59
+  - first:
+      213: -2630606336876737774
+    second: hard_sand_60
+  - first:
+      213: -2660789523342259817
+    second: hard_sand_61
+  - first:
+      213: -7829061954429836096
+    second: hard_sand_62
+  - first:
+      213: -3380497699437346140
+    second: hard_sand_63
+  - first:
+      213: -1366075093066970127
+    second: hard_sand_64
+  - first:
+      213: 368576124768208668
+    second: hard_sand_65
+  - first:
+      213: 5038771877052286309
+    second: hard_sand_66
+  - first:
+      213: 8333532437736947025
+    second: hard_sand_67
+  - first:
+      213: 3150089215583180115
+    second: hard_sand_68
+  - first:
+      213: -210100666809213519
+    second: hard_sand_69
+  - first:
+      213: 5242382536625514667
+    second: hard_sand_70
+  - first:
+      213: -84635762840097844
+    second: hard_sand_71
+  - first:
+      213: 3816173125648548620
+    second: hard_sand_72
+  - first:
+      213: 644369906585871273
+    second: hard_sand_73
+  - first:
+      213: 5195718518275703180
+    second: hard_sand_74
+  - first:
+      213: 7410089927943928205
+    second: hard_sand_75
+  - first:
+      213: -5942169332198752835
+    second: hard_sand_76
+  - first:
+      213: -3302089471971817577
+    second: hard_sand_77
+  - first:
+      213: -2911993680346389873
+    second: hard_sand_78
+  - first:
+      213: -1721897151657991810
+    second: hard_sand_79
+  - first:
+      213: -6990863592404866098
+    second: hard_sand_80
+  - first:
+      213: 8478614625052928060
+    second: hard_sand_81
+  - first:
+      213: -1715626559308968842
+    second: hard_sand_82
+  - first:
+      213: -5324635856848439114
+    second: hard_sand_83
+  - first:
+      213: 666458731739371393
+    second: hard_sand_84
+  - first:
+      213: 571985434847285452
+    second: hard_sand_85
+  - first:
+      213: 4668369740813252361
+    second: hard_sand_86
+  - first:
+      213: -8697755537037555587
+    second: hard_sand_87
+  - first:
+      213: -1167339961162685862
+    second: hard_sand_88
+  - first:
+      213: 6713174948923811483
+    second: hard_sand_89
+  - first:
+      213: -5654911608328838731
+    second: hard_sand_90
+  - first:
+      213: 624711535336488767
+    second: hard_sand_91
+  - first:
+      213: 1107773369408375262
+    second: hard_sand_92
+  - first:
+      213: 4186039170941977574
+    second: hard_sand_93
+  - first:
+      213: -4132704295050032748
+    second: hard_sand_94
+  - first:
+      213: -4115150797667432719
+    second: hard_sand_95
+  - first:
+      213: 23444779194808821
+    second: hard_sand_96
+  - first:
+      213: -4435167293337065441
+    second: hard_sand_97
+  - first:
+      213: 7606016472514281735
+    second: hard_sand_98
+  - first:
+      213: -4061106245499632018
+    second: hard_sand_99
+  - first:
+      213: 7252531296807772884
+    second: hard_sand_100
+  - first:
+      213: 4881796496372563447
+    second: hard_sand_101
+  - first:
+      213: -6106917143604501271
+    second: hard_sand_102
+  - first:
+      213: 176231065191381464
+    second: hard_sand_103
+  - first:
+      213: -4145164058160680920
+    second: hard_sand_104
+  - first:
+      213: 3377954667196205536
+    second: hard_sand_105
+  - first:
+      213: 700912607020722438
+    second: hard_sand_106
+  - first:
+      213: 9047060182120940967
+    second: hard_sand_107
+  - first:
+      213: 9150874836176888851
+    second: hard_sand_108
+  - first:
+      213: -5571762737863804016
+    second: hard_sand_109
+  - first:
+      213: 5120699776683149728
+    second: hard_sand_110
+  - first:
+      213: -8080102623689132488
+    second: hard_sand_111
+  - first:
+      213: -2886848772134996886
+    second: hard_sand_112
+  - first:
+      213: -6634569957607736491
+    second: hard_sand_113
+  - first:
+      213: -3764571839047325625
+    second: hard_sand_114
+  - first:
+      213: -7273098772453963905
+    second: hard_sand_115
+  - first:
+      213: -1152927602590447627
+    second: hard_sand_116
+  - first:
+      213: 6741386992618582597
+    second: hard_sand_117
+  - first:
+      213: 4787117274272154833
+    second: hard_sand_118
+  - first:
+      213: -2806383609054900451
+    second: hard_sand_119
+  - first:
+      213: 9126424688214311895
+    second: hard_sand_120
+  - first:
+      213: 8888679188309220339
+    second: hard_sand_121
+  - first:
+      213: -7604389054840336458
+    second: hard_sand_122
+  - first:
+      213: -3772093468384960810
+    second: hard_sand_123
+  - first:
+      213: 3006755080053219089
+    second: hard_sand_124
+  - first:
+      213: -2593315508904084004
+    second: hard_sand_125
+  - first:
+      213: 3629314861059479283
+    second: hard_sand_126
+  - first:
+      213: 140017082547405397
+    second: hard_sand_127
+  - first:
+      213: 4874316802792805784
+    second: hard_sand_128
+  - first:
+      213: -8374779467734972606
+    second: hard_sand_129
+  - first:
+      213: 2403645988127671137
+    second: hard_sand_130
+  - first:
+      213: 1112881796273078676
+    second: hard_sand_131
+  - first:
+      213: -3985188557958455314
+    second: hard_sand_132
+  - first:
+      213: 7542875336844151151
+    second: hard_sand_133
+  - first:
+      213: 6105139919089215177
+    second: hard_sand_134
+  - first:
+      213: -1495719656027065564
+    second: hard_sand_135
+  - first:
+      213: -8213850989056862590
+    second: hard_sand_136
+  - first:
+      213: -7392384203819410406
+    second: hard_sand_137
+  - first:
+      213: -2287868653653966782
+    second: hard_sand_138
+  - first:
+      213: -9120611731845624082
+    second: hard_sand_139
+  - first:
+      213: 5302749026877828136
+    second: hard_sand_140
+  - first:
+      213: 3270822692355558973
+    second: hard_sand_141
+  - first:
+      213: -2152766740176309694
+    second: hard_sand_142
+  - first:
+      213: -8455964718475293581
+    second: hard_sand_143
+  - first:
+      213: -3870005341856719746
+    second: hard_sand_144
+  - first:
+      213: 3502929727294147425
+    second: hard_sand_145
+  - first:
+      213: 858327877830758425
+    second: hard_sand_146
+  - first:
+      213: -3532216459620664607
+    second: hard_sand_147
+  - first:
+      213: 6470308878149538131
+    second: hard_sand_148
+  - first:
+      213: -8944553884283313827
+    second: hard_sand_149
+  - first:
+      213: 4201731939814626876
+    second: hard_sand_150
+  - first:
+      213: 3488785254790282151
+    second: hard_sand_151
+  - first:
+      213: -8554692191161137876
+    second: hard_sand_152
+  - first:
+      213: -6090888158788958734
+    second: hard_sand_153
+  - first:
+      213: 5558785249160800558
+    second: hard_sand_154
+  - first:
+      213: -4349665998362234254
+    second: hard_sand_155
+  - first:
+      213: -8595877330869751275
+    second: hard_sand_156
+  - first:
+      213: 8354826518146325407
+    second: hard_sand_157
+  - first:
+      213: -5777744204570712575
+    second: hard_sand_158
+  - first:
+      213: 7701455433690352080
+    second: hard_sand_159
+  - first:
+      213: -5083021462375533026
+    second: hard_sand_160
+  - first:
+      213: -2345611140895348635
+    second: hard_sand_161
+  - first:
+      213: 4581659324994679536
+    second: hard_sand_162
+  - first:
+      213: -6303033573410211995
+    second: hard_sand_163
+  - first:
+      213: -7940023350344256932
+    second: hard_sand_164
+  - first:
+      213: -5639557337053744681
+    second: hard_sand_165
+  - first:
+      213: 5315841957214665125
+    second: hard_sand_166
+  - first:
+      213: -4355819223195145606
+    second: hard_sand_167
+  - first:
+      213: 2854101060900720909
+    second: hard_sand_168
+  - first:
+      213: 1484085543707630142
+    second: hard_sand_169
+  - first:
+      213: -303815851164315016
+    second: hard_sand_170
+  - first:
+      213: -6536836629013461591
+    second: hard_sand_171
+  - first:
+      213: 2029536567732467267
+    second: hard_sand_172
+  - first:
+      213: -61831112360712700
+    second: hard_sand_173
+  - first:
+      213: -2440047434277149830
+    second: hard_sand_174
+  - first:
+      213: -8702201220642652126
+    second: hard_sand_175
+  - first:
+      213: 8068449932996583652
+    second: hard_sand_176
+  - first:
+      213: 841902494807520563
+    second: hard_sand_177
+  - first:
+      213: -2678640940448628462
+    second: hard_sand_178
+  - first:
+      213: -5724633386431301047
+    second: hard_sand_179
+  - first:
+      213: -8883812705781286253
+    second: hard_sand_180
+  - first:
+      213: -947901083050103418
+    second: hard_sand_181
+  - first:
+      213: -1815582302023759536
+    second: hard_sand_182
+  - first:
+      213: 7904516960180238525
+    second: hard_sand_183
+  - first:
+      213: 8737779062520836477
+    second: hard_sand_184
+  - first:
+      213: 2131722904129543883
+    second: hard_sand_185
+  - first:
+      213: 2728037217879895839
+    second: hard_sand_186
+  - first:
+      213: -932994784339927612
+    second: hard_sand_187
+  - first:
+      213: 6453912094463711393
+    second: hard_sand_188
+  - first:
+      213: -4427090943936877965
+    second: hard_sand_189
+  - first:
+      213: 6071000414375904407
+    second: hard_sand_190
+  - first:
+      213: 6420789285904084448
+    second: hard_sand_191
+  - first:
+      213: -4873132734718749063
+    second: hard_sand_192
+  - first:
+      213: 2131416282836801656
+    second: hard_sand_193
+  - first:
+      213: 5879581105045700710
+    second: hard_sand_194
+  - first:
+      213: -8011039693247701719
+    second: hard_sand_195
+  - first:
+      213: 1676521191060510804
+    second: hard_sand_196
+  - first:
+      213: 4432238132460211176
+    second: hard_sand_197
+  - first:
+      213: -1251228419542031171
+    second: hard_sand_198
+  - first:
+      213: -4399946391892302151
+    second: hard_sand_199
+  - first:
+      213: 8743572023548188637
+    second: hard_sand_200
+  - first:
+      213: 1460007180265878654
+    second: hard_sand_201
+  - first:
+      213: 8056276865590987421
+    second: hard_sand_202
+  - first:
+      213: -8057318371540765439
+    second: hard_sand_203
+  - first:
+      213: -9021641673588019369
+    second: hard_sand_204
+  - first:
+      213: -4667304726470886967
+    second: hard_sand_205
+  - first:
+      213: -3343945992614243144
+    second: hard_sand_206
+  - first:
+      213: -2033780697728364357
+    second: hard_sand_207
+  - first:
+      213: 198205142213562112
+    second: hard_sand_208
+  - first:
+      213: -7013418050618297486
+    second: hard_sand_209
+  - first:
+      213: -757004954320877032
+    second: hard_sand_210
+  - first:
+      213: -7835243494598636192
+    second: hard_sand_211
+  - first:
+      213: -5670185112225891589
+    second: hard_sand_212
+  - first:
+      213: -8769065664455223764
+    second: hard_sand_213
+  - first:
+      213: -6295864654460079978
+    second: hard_sand_214
+  - first:
+      213: 489092962463252716
+    second: hard_sand_215
+  - first:
+      213: 7828672555189688305
+    second: hard_sand_216
+  - first:
+      213: -3461128604854707910
+    second: hard_sand_217
+  - first:
+      213: 4637446793257266773
+    second: hard_sand_218
+  - first:
+      213: 6839071386679110880
+    second: hard_sand_219
+  - first:
+      213: 616043461623366391
+    second: hard_sand_220
+  - first:
+      213: 539788880720110651
+    second: hard_sand_221
+  - first:
+      213: -767031115201337585
+    second: hard_sand_222
+  - first:
+      213: -872222716217662260
+    second: hard_sand_223
+  - first:
+      213: 7780457210402305449
+    second: hard_sand_224
+  - first:
+      213: -6551683760179421805
+    second: hard_sand_225
+  - first:
+      213: 7486023141287615142
+    second: hard_sand_226
+  - first:
+      213: 7120691322892614803
+    second: hard_sand_227
+  - first:
+      213: 300405990102287012
+    second: hard_sand_228
+  - first:
+      213: -5019176836173215219
+    second: hard_sand_229
+  - first:
+      213: -2052856967405048742
+    second: hard_sand_230
+  - first:
+      213: -4328537240842493408
+    second: hard_sand_231
+  - first:
+      213: 841531397199133100
+    second: hard_sand_232
+  - first:
+      213: 1444133495596875541
+    second: hard_sand_233
+  - first:
+      213: 3045992454452923323
+    second: hard_sand_234
+  - first:
+      213: -5913715371572726230
+    second: hard_sand_235
+  - first:
+      213: 9199097679406186375
+    second: hard_sand_236
+  - first:
+      213: -2622568243922139527
+    second: hard_sand_237
+  - first:
+      213: -4939405793317105413
+    second: hard_sand_238
+  - first:
+      213: 2845142562551121997
+    second: hard_sand_239
+  - first:
+      213: -1213118792149084922
+    second: hard_sand_240
+  - first:
+      213: 3615016003327382604
+    second: hard_sand_241
+  - first:
+      213: 500896461608446156
+    second: hard_sand_242
+  - first:
+      213: 8884309933373186799
+    second: hard_sand_243
+  - first:
+      213: 5014762837297591984
+    second: hard_sand_244
+  - first:
+      213: 825540967780973614
+    second: hard_sand_245
+  - first:
+      213: 7567346774097931680
+    second: hard_sand_246
+  - first:
+      213: -8209247203864676902
+    second: hard_sand_247
+  - first:
+      213: 704805287770207025
+    second: hard_sand_248
+  - first:
+      213: 5009188568784488956
+    second: hard_sand_249
+  - first:
+      213: 6919932095816655849
+    second: hard_sand_250
+  - first:
+      213: -5481019975728918644
+    second: hard_sand_251
+  - first:
+      213: -8358007253484226224
+    second: hard_sand_252
+  - first:
+      213: -239598391151115140
+    second: hard_sand_253
+  - first:
+      213: 3486666390004378323
+    second: hard_sand_254
+  - first:
+      213: 7878092431056735360
+    second: hard_sand_255
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 128
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hard_sand_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c6c9bd1e42406e10800000000000000
+      internalID: 2188822322175657671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8808f11b4387b1a20800000000000000
+      internalID: 3034150941669425288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83d0d47d358f5d2d0800000000000000
+      internalID: -3254422116727190216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49b55b340eef97b0800000000000000
+      internalID: -5215188141528991409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_4
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4e6dd025a1070a80800000000000000
+      internalID: -8500823962905907636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc6e367fc81eafd10800000000000000
+      internalID: 2160286966839764687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_6
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd47465037ab2bd0800000000000000
+      internalID: -2653843729356993104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_7
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8fcc2c9d4d962a90800000000000000
+      internalID: -7339005586095419505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb375c00b6e621180800000000000000
+      internalID: -9146126487382559812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28032c731eba29370800000000000000
+      internalID: 8327907644752932994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4c33c4955a4b4e0800000000000000
+      internalID: -1966765334304930586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886026d93caad8f80800000000000000
+      internalID: -8102632397433862520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_12
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af161532d11653a60800000000000000
+      internalID: 7653129919560507898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_13
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b8997190ade4580800000000000000
+      internalID: -8840889285896205475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_14
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19bb917ba918a1470800000000000000
+      internalID: 8366141759290981265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_15
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 768
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92030077e72917270800000000000000
+      internalID: 8246533464552124457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5694ff6e4f11f77a0800000000000000
+      internalID: -6377358803788150427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e390c20ffadeeb0800000000000000
+      internalID: -4688898190957003228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6493ec6373aaed80800000000000000
+      internalID: -8220578453667998614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_19
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd053de10a976420800000000000000
+      internalID: 2623234641031925243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_20
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0ae4e2dfa017ca20800000000000000
+      internalID: 3082450817301932557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_21
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2220165d848f0e0800000000000000
+      internalID: -2235957133696687451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_22
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dfbac40f6165af0800000000000000
+      internalID: -408113494896149237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_23
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 640
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cca615d9c99f9d70800000000000000
+      internalID: 9052122868180495556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37db63cbae50a45b0800000000000000
+      internalID: -5383483898829816461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069defb538b1066d0800000000000000
+      internalID: -2999367100830656160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_26
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c884880347e903150800000000000000
+      internalID: 5850350137821907084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 215be6b8005c35040800000000000000
+      internalID: 4635265047624332562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_28
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d67122599a2298be0800000000000000
+      internalID: -1474609291240269971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_29
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd83af8fdb822630800000000000000
+      internalID: 3900834019560099268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_30
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c196f64bee94807a0800000000000000
+      internalID: -6410792779983656676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_31
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 512
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3689b84cd11564410800000000000000
+      internalID: 1460944317421688931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9f23f2788741e50800000000000000
+      internalID: 6779175861107227093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_33
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45232240f6b3e190800000000000000
+      internalID: -7934296975478676148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9819a302440947fc0800000000000000
+      internalID: -3498012388287147639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_35
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b301d2685b4d4950800000000000000
+      internalID: 6434882285569377202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_36
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dfaca799871ef9c0800000000000000
+      internalID: -3891647148278894640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_37
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68df1c4549d2849f0800000000000000
+      internalID: -484086844841919098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_38
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa7433bd1fd973130800000000000000
+      internalID: 3546476893667805098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_39
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 384
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55641017b0e5bf120800000000000000
+      internalID: 2448654225639556693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a4c291b770cce080800000000000000
+      internalID: -9156732322038233943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2038af6ad26019390800000000000000
+      internalID: -7813457085366369534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77ae009b300e329a0800000000000000
+      internalID: -6258912750521488777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_43
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee182b0bbfe3b6a0800000000000000
+      internalID: -6434535855957205274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_44
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 020e7b5cfce9571c0800000000000000
+      internalID: -4506521236901732320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_45
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f124e308c6f52140800000000000000
+      internalID: 4694429525522784759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_46
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee419e03e8dfa64f0800000000000000
+      internalID: -834575993776040722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_47
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 256
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d73351d1ea08310a0800000000000000
+      internalID: -6912039517782985859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f2a32b7693e1fd0800000000000000
+      internalID: -2369393236415729904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_49
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87632e18ae653df60800000000000000
+      internalID: 8057879723497371256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_50
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85c44dd8139efd30800000000000000
+      internalID: 4467169615398880654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_51
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96450a1b4b0dcbe20800000000000000
+      internalID: 3367796095859053673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_52
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0aef5a304a799580800000000000000
+      internalID: -8819883978952545780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_53
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9070a86b2bcddf3e0800000000000000
+      internalID: -2018214397867325687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_54
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67ebe5496d3600a50800000000000000
+      internalID: 6485293236676902518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_55
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 128
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20c6593d45d8396a0800000000000000
+      internalID: -6443651246370493438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b291cc5e04c9d9bb0800000000000000
+      internalID: -4927610614726256341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_57
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7fb97c2d1eb53ed0800000000000000
+      internalID: -2434830991014379650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_58
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ea75d8d042a78b0800000000000000
+      internalID: -5153767182947602852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_59
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d6ffd94059487aa0800000000000000
+      internalID: -6163095480870897966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_60
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21b029269753e7bd0800000000000000
+      internalID: -2630606336876737774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_61
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7998a17a60af21bd0800000000000000
+      internalID: -2660789523342259817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_62
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c42fa1f1a5995390800000000000000
+      internalID: -7829061954429836096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hard_sand_63
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a20305c04f0611d0800000000000000
+      internalID: -3380497699437346140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
