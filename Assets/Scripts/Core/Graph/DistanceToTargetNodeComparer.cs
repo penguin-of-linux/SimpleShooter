@@ -1,8 +1,8 @@
 using System.Collections.Generic;
-using DefaultNamespace.Core.MapDto;
+using Core.MapDto;
 using UnityEngine;
 
-namespace DefaultNamespace.Core.Graph
+namespace Core.Graph
 {
     public class DistanceToTargetNodeComparer : IComparer<Tile>
     {

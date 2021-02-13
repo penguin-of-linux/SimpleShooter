@@ -1,11 +1,11 @@
 using System.Linq;
-using DefaultNamespace.Core.Generation;
-using DefaultNamespace.Core.MapDto.Tiles;
+using Core.Generation;
+using Core.MapDto.Tiles;
 using FluentAssertions;
 using NUnit.Framework;
 using UnityEngine;
 
-namespace DefaultNamespace.Tests
+namespace Tests
 {
     [TestFixture]
     public class MapTests

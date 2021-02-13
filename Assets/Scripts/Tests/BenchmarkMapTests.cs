@@ -1,10 +1,10 @@
 using System;
 using System.Diagnostics;
-using DefaultNamespace.Core.Generation;
-using DefaultNamespace.Core.MapDto.Tiles;
+using Core.Generation;
+using Core.MapDto.Tiles;
 using NUnit.Framework;
 
-namespace DefaultNamespace.Tests
+namespace Tests
 {
     [TestFixture]
     public class BenchmarkMapTests

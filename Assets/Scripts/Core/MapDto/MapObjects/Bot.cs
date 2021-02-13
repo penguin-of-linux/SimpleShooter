@@ -1,4 +1,4 @@
-namespace DefaultNamespace.Core.MapDto.MapObjects
+namespace Core.MapDto.MapObjects
 {
     public class Bot : Unit
     {

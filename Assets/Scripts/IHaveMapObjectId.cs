@@ -1,9 +1,6 @@
 using System;
 
-namespace DefaultNamespace
+public interface IHaveMapObjectId
 {
-    public interface IHaveMapObjectId
-    {
-        Guid MapObjectId { get; set; }
-    }
+    Guid MapObjectId { get; set; }
 }

@@ -1,6 +1,4 @@
-using Core.MapDto;
-
-namespace DefaultNamespace.Core.MapDto.MapObjects
+namespace Core.MapDto.MapObjects
 {
     public abstract class Unit : MapObject
     {

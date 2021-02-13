@@ -1,4 +1,4 @@
-namespace DefaultNamespace.Core.MapDto.Tiles
+namespace Core.MapDto
 {
     public enum TileType
     {

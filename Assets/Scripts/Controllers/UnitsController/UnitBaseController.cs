@@ -1,20 +1,25 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using Core.MapDto;
+using Core.MapDto.MapObjects;
 using UnityEngine;
-
-namespace DefaultNamespace
+namespace Controllers.UnitsController
 {
     public abstract class UnitBaseController : MonoBehaviour
     {
-        public void Start()
+        protected abstract Unit Unit { get; set; }
+        
+        public virtual void Start()
         {
             rigidBody = GetComponent<Rigidbody2D>();
             animator = GetComponent<Animator>();
             bulletPrefab = ResourceLoader.GetBulletPrefab();
         }
 
-        public void FixedUpdate()
+        public virtual void FixedUpdate()
         {
-            animator.SetFloat("Speed", rigidBody.velocity.magnitude);
+            animator.SetFloat(speedAnimatorVariable, rigidBody.velocity.magnitude);
         }
 
         protected void MoveTo(Vector2 cords)
@@ -44,6 +49,35 @@ namespace DefaultNamespace
             }
         }
 
+        protected (bool, Unit) UpdateTarget(Unit target, Map map)
+        {
+            if (target != null && map.Units.ContainsKey(target.Id))
+                return (false, target);
+
+            var newTarget = map.Units.Values.FirstOrDefault(x => x.Team != Unit.Team && x.Team != Team.Neutral);
+            return (true, newTarget);
+        }
+        
+        protected bool CanShoot(Vector2 direction, Unit target)
+        {
+            var position = transform.position.ToVector2();
+            var hits = new List<RaycastHit2D>();
+            var filter = new ContactFilter2D();
+            Physics2D.Raycast(position, direction, filter, hits);
+
+            if (hits.Count < 2)
+                return false;
+        
+            var hit = hits[1];
+            var haveMapObjectIdController = hit.collider.gameObject.GetComponent<IHaveMapObjectId>();
+            if (haveMapObjectIdController != null && haveMapObjectIdController.MapObjectId == target.Id)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
         private DateTime lastShoot = DateTime.MinValue;
         
         private readonly TimeSpan shootPeriod = TimeSpan.FromSeconds(0.25);
@@ -53,5 +87,7 @@ namespace DefaultNamespace
         private Animator animator;
         private Rigidbody2D rigidBody;
         private GameObject bulletPrefab;
+        
+        private static readonly int speedAnimatorVariable = Animator.StringToHash("Speed");
     }
 }

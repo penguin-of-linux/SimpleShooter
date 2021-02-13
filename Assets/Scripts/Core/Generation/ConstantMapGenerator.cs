@@ -1,10 +1,9 @@
 using Core.MapDto;
-using DefaultNamespace.Core.MapDto;
-using DefaultNamespace.Core.MapDto.MapObjects;
-using DefaultNamespace.Core.MapDto.Tiles;
+using Core.MapDto.MapObjects;
+using Core.MapDto.Tiles;
 using UnityEngine;
 
-namespace DefaultNamespace.Core.Generation
+namespace Core.Generation
 {
     public class ConstantMapGenerator
     {
@@ -23,7 +22,7 @@ namespace DefaultNamespace.Core.Generation
             var width = 20;
             var height = 15;
             
-            var map = ConstantMapGenerator.GenerateFilled(width, height);
+            var map = GenerateFilled(width, height);
             
             FillBricks(map);
             AddPlayer(map);

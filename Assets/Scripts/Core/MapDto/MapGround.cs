@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Linq;
-using DefaultNamespace.Core.Graph;
+using Core.Graph;
 using UnityEngine;
 
-namespace DefaultNamespace.Core.MapDto
+namespace Core.MapDto
 {
     public partial class Map : Graph<Tile>
     {

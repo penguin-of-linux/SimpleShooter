@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
-using DefaultNamespace.Core.MapDto.MapObjects;
+using Core.MapDto.MapObjects;
 
-namespace DefaultNamespace.Core.MapDto
+namespace Core.MapDto
 {
     public partial class Map
     {

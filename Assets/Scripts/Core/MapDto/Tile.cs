@@ -1,11 +1,15 @@
-using DefaultNamespace.Core.Graph;
-using DefaultNamespace.Core.MapDto.Tiles;
+using Core.Graph;
 using UnityEngine;
 
-namespace DefaultNamespace.Core.MapDto
+namespace Core.MapDto
 {
     public abstract class Tile : INode
     {
+        public abstract bool Passable { get; }
+        public abstract TileType Type {get;}
+
+        public Vector2Int Cords { get; }
+
         protected Tile(Vector2Int cords)
         {
             Cords = cords;
@@ -15,12 +19,7 @@ namespace DefaultNamespace.Core.MapDto
         {
             Cords = new Vector2Int(x, y);
         }
-
-        public abstract bool Passable { get; }
-        public abstract TileType Type {get;}
-
-        public Vector2Int Cords { get; }
-
+        
         public override bool Equals(object obj)
         {
             return obj is Tile tile && Cords.Equals(tile.Cords);

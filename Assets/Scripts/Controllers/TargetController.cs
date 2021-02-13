@@ -1,8 +1,8 @@
 using System;
-using DefaultNamespace.Core.MapDto;
+using Core.MapDto;
 using UnityEngine;
 
-namespace DefaultNamespace
+namespace Controllers
 {
     public class TargetController : MonoBehaviour, IHaveMapObjectId
     {
@@ -17,11 +17,7 @@ namespace DefaultNamespace
         public void Hit()
         {
             Destroy(gameObject);
-            
-            //if (MapObjectId == map.Player.Id)
-            //    map.Player.Dead = true;
-            //else
-                map.Units.Remove(MapObjectId);
+            map.Units.Remove(MapObjectId);
         }
         
         private Map map;

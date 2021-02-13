@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace DefaultNamespace.Core.Graph
+namespace Core.Graph
 {
     public interface INode
     {

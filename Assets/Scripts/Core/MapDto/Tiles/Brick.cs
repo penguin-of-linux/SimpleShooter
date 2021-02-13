@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace DefaultNamespace.Core.MapDto.Tiles
+namespace Core.MapDto.Tiles
 {
     public class Brick : Tile
     {

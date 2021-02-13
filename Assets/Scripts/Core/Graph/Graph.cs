@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using C5;
 
-namespace DefaultNamespace.Core.Graph
+namespace Core.Graph
 {
     public abstract class Graph<TNode> where TNode : INode
     {

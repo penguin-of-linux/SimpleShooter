@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace DefaultNamespace.Core.MapDto.MapObjects
+namespace Core.MapDto.MapObjects
 {
     public abstract class MapObject
     {
