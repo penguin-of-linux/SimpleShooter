@@ -6,9 +6,10 @@ using Core.MapDto.MapObjects;
 using UnityEngine;
 namespace Controllers.UnitsController
 {
-    public abstract class UnitBaseController : MonoBehaviour
+    public abstract class UnitBaseController : MonoBehaviour, IHaveMapObjectId
     {
-        protected abstract Unit Unit { get; set; }
+        public Guid MapObjectId { get; set; }
+        public Unit Unit { get; set; }
         
         public virtual void Start()
         {

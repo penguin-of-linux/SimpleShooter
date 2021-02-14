@@ -1,16 +1,11 @@
-﻿using System;
-using Core.MapDto;
+﻿using Core.MapDto;
 using Core.MapDto.MapObjects;
 using UnityEngine;
 
 namespace Controllers.UnitsController
 {
-    public class BotController : UnitBaseController, IHaveMapObjectId
+    public class BotController : UnitBaseController
     {
-        public Guid MapObjectId { get; set; }
-
-        protected override Unit Unit { get; set; }
-
         public override void Start()
         {
             base.Start();
@@ -18,7 +13,7 @@ namespace Controllers.UnitsController
             var gameController = GameObject.Find(nameof(GameController))?.GetComponent<GameController>();
             if (gameController != null) map = gameController.Map;
 
-            Unit = (Bot)map.Units[MapObjectId];
+            Unit = map.Units[MapObjectId];
         }
 
         public override void FixedUpdate()
