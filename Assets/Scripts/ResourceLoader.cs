@@ -39,6 +39,11 @@ public static class ResourceLoader
         return botPrefab;
     }
 
+    public static GameObject GetBoxPrefab()
+    {
+        return boxPrefab;
+    }
+
     public static void Initialize()
     {
         InitializeTiles();
@@ -48,6 +53,8 @@ public static class ResourceLoader
             
         playerPrefab = Resources.Load<GameObject>("Prefabs/Units/Player");
         botPrefab = Resources.Load<GameObject>("Prefabs/Units/Bot");
+        
+        boxPrefab = Resources.Load<GameObject>("Prefabs/Box/Box");
     }
         
     private static void InitializeTiles()
@@ -69,4 +76,6 @@ public static class ResourceLoader
 
     private static GameObject playerPrefab;
     private static GameObject botPrefab;
+    
+    private static GameObject boxPrefab;
 }
