@@ -43,6 +43,11 @@ public static class ResourceLoader
     {
         return boxPrefab;
     }
+    
+    public static GameObject GetMedicPrefab()
+    {
+        return medicPrefab;
+    }
 
     public static void Initialize()
     {
@@ -53,6 +58,7 @@ public static class ResourceLoader
             
         playerPrefab = Resources.Load<GameObject>("Prefabs/Units/Player");
         botPrefab = Resources.Load<GameObject>("Prefabs/Units/Bot");
+        medicPrefab = Resources.Load<GameObject>("Prefabs/Units/Medic/Medic");
         
         boxPrefab = Resources.Load<GameObject>("Prefabs/Box/Box");
     }
@@ -76,6 +82,7 @@ public static class ResourceLoader
 
     private static GameObject playerPrefab;
     private static GameObject botPrefab;
+    private static GameObject medicPrefab;
     
     private static GameObject boxPrefab;
 }
