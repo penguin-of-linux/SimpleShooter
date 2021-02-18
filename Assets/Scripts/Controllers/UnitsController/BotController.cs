@@ -49,6 +49,26 @@ namespace Controllers.UnitsController
             if (localPathTarget.HasValue)
                 MoveTo(localPathTarget.Value);
         }
+        
+        public override void Update()
+        {
+            base.Update();
+
+            var velocity = transform.GetComponent<Rigidbody2D>().velocity;
+            if (velocity.magnitude > 0)
+            {
+                var rotateDirection = velocity.ToVector3().normalized;
+                if (rotateDirection.magnitude > 0) transform.rotation = Geometry.GetQuaternionFromCathetuses(rotateDirection);
+            }
+        }
+
+        private new void Shoot(Vector2 direction)
+        {
+            base.Shoot(direction);
+            
+            transform.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+            transform.rotation = Geometry.GetQuaternionFromCathetuses(direction);
+        }
 
         private Unit target;
         private Vector2? localPathTarget;
