@@ -16,11 +16,24 @@ namespace Controllers.UnitsController
             rigidBody = GetComponent<Rigidbody2D>();
             animator = GetComponent<Animator>();
             bulletPrefab = ResourceLoader.GetBulletPrefab();
+
+            healthBar = Instantiate(ResourceLoader.GetHealthBarPrefab());
         }
 
         public virtual void FixedUpdate()
         {
             animator.SetFloat(speedAnimatorVariable, rigidBody.velocity.magnitude);
+        }
+
+        public virtual void Update()
+        {
+            var position = transform.position;
+            healthBar.transform.position = new Vector3(position.x, position.y + 0.4f, position.z);
+        }
+
+        public void OnDestroy()
+        {
+            Destroy(healthBar);
         }
 
         protected void MoveTo(Vector2 cords)
@@ -84,6 +97,8 @@ namespace Controllers.UnitsController
         private readonly TimeSpan shootPeriod = TimeSpan.FromSeconds(0.25);
         private readonly float accelerate = 10f;
         private const float bulletForce = 500;
+
+        private GameObject healthBar;
         
         private Animator animator;
         private Rigidbody2D rigidBody;

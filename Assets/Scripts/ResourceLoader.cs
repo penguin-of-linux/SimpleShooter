@@ -14,6 +14,11 @@ public static class ResourceLoader
     {
         return bulletPrefab;
     }
+    
+    public static GameObject GetHealthBarPrefab()
+    {
+        return healthBarPrefab;
+    }
 
     public static Tile GetTile(TileType type, System.Random random = null)
     {
@@ -55,6 +60,8 @@ public static class ResourceLoader
             
         crossHair = Resources.Load<Texture2D>("crosshair");
         bulletPrefab = Resources.Load<GameObject>("Prefabs/Bullet/bullet");
+        
+        healthBarPrefab = Resources.Load<GameObject>("Prefabs/HealthBar");
             
         playerPrefab = Resources.Load<GameObject>("Prefabs/Units/Player");
         botPrefab = Resources.Load<GameObject>("Prefabs/Units/Bot");
@@ -79,6 +86,7 @@ public static class ResourceLoader
 
     private static Texture2D crossHair;
     private static GameObject bulletPrefab;
+    private static GameObject healthBarPrefab;
 
     private static GameObject playerPrefab;
     private static GameObject botPrefab;

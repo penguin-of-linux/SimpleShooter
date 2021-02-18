@@ -29,8 +29,10 @@ namespace Controllers.UnitsController
             Camera.main.SetPosition(position.x, position.y);
         }
 
-        public void Update()
+        public override void Update()
         {
+            base.Update();
+            
             HandleKeyboard();
             HandleMouse();
         }

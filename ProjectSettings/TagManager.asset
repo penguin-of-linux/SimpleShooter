@@ -22,7 +22,7 @@ TagManager:
   - Bullet
   - 
   - 
-  - 
+  - HealthBar
   - 
   - 
   - 
@@ -52,4 +52,7 @@ TagManager:
     locked: 0
   - name: Bullet
     uniqueID: 944643635
+    locked: 0
+  - name: HealthBar
+    uniqueID: 2654903209
     locked: 0
