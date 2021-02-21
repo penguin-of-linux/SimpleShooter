@@ -18,7 +18,7 @@ namespace Controllers
             {
                 var shootComponent = other.GetComponent<ShootComponent>();
                 healthComponent.Health -= shootComponent.Damage;
-                if (healthComponent.Health < 0)
+                if (healthComponent.Health <= 0)
                     gameStateController.DestroyEntity(healthComponent.gameObject);
             }
             Destroy(gameObject);
