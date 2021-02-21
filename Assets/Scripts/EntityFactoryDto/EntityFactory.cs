@@ -13,6 +13,8 @@ namespace EntityFactoryDto
             gameObject.AddComponent<ShootComponent>();
             gameObject.AddComponent<PlayerMouseHandleComponent>();
 
+            gameObject.GetComponent<ShootComponent>().Damage = options.Damage;
+
             return gameObject;
         }
 
@@ -21,6 +23,8 @@ namespace EntityFactoryDto
             var gameObject = CreateUnit(options);
             gameObject.AddComponent<ShootComponent>();
             gameObject.AddComponent<BotComponent>();
+
+            gameObject.GetComponent<ShootComponent>().Damage = options.Damage;
 
             return gameObject;
         }
@@ -36,6 +40,7 @@ namespace EntityFactoryDto
             gameObject.AddComponent<HealthComponent>();
 
             gameObject.GetComponent<TeamComponent>().Team = options.Team;
+            gameObject.GetComponent<HealthComponent>().Health = options.Health;
 
             return gameObject;
         }

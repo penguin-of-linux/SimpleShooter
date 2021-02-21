@@ -13,10 +13,13 @@ namespace Controllers
 
         public void OnTriggerEnter2D(Collider2D other)
         {
-            var target = other.GetComponent<HealthComponent>();
-            if (target != null)
+            var healthComponent = other.GetComponent<HealthComponent>();
+            if (healthComponent != null)
             {
-                gameStateController.DestroyEntity(target.gameObject);
+                var shootComponent = other.GetComponent<ShootComponent>();
+                healthComponent.Health -= shootComponent.Damage;
+                if (healthComponent.Health < 0)
+                    gameStateController.DestroyEntity(healthComponent.gameObject);
             }
             Destroy(gameObject);
         }

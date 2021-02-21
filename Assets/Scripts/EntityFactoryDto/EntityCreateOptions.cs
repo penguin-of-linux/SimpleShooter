@@ -8,5 +8,7 @@ namespace EntityFactoryDto
         public EntityType EntityType { get; set; }
         public Team Team { get; set; }
         public Vector2 Position { get; set; }
+        public int Health { get; set; }
+        public int Damage { get; set; }
     }
 }

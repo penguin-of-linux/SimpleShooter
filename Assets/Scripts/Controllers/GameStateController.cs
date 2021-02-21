@@ -1,4 +1,5 @@
-﻿using System.Collections.Concurrent;
+﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -15,6 +16,8 @@ namespace Controllers
         public bool DestroyEntity(GameObject entity)
         {
             Destroy(entity);
+            foreach(var disposable in entity.GetComponents<IDisposable>())
+                disposable.Dispose();
             return entities.TryRemove(entity.GetInstanceID(), out entity);
         }
 

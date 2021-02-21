@@ -6,6 +6,7 @@ namespace Components
     public class ShootComponent : MonoBehaviour
     {
         public Vector2 Direction { get; set; }
+        public int Damage { get; set; }
 
         void Start()
         {

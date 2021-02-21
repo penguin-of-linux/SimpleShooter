@@ -23,7 +23,9 @@ namespace Controllers
             {
                 Position = new Vector2(15, 5),
                 Team = Team.Neutral,
-                EntityType = EntityType.Shooter
+                EntityType = EntityType.Shooter,
+                Damage = 20,
+                Health = 100
             });
             gameStateController.AddEntity(player);
         }

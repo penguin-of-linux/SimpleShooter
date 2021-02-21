@@ -42,7 +42,9 @@ namespace Controllers
             {
                 EntityType = EntityType.Shooter,
                 Position = cords,
-                Team = team
+                Team = team,
+                Damage = 20,
+                Health = 100
             });
             gameStateController.AddEntity(bot);
         }
