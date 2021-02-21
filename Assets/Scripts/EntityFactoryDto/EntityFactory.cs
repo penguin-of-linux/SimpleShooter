@@ -10,10 +10,14 @@ namespace EntityFactoryDto
             var gameObject = CreateUnit(options);
             gameObject.AddComponent<PlayerKeyboardHandleComponent>();
             gameObject.AddComponent<CameraTargetComponent>();
-            gameObject.AddComponent<ShootComponent>();
+            //gameObject.AddComponent<ShootComponent>();
             gameObject.AddComponent<PlayerMouseHandleComponent>();
+            gameObject.AddComponent<MedicComponent>();
 
-            gameObject.GetComponent<ShootComponent>().Damage = options.Damage;
+            //gameObject.GetComponent<ShootComponent>().Damage = options.Damage;
+            
+            gameObject.GetComponent<MedicComponent>().HealingPower = options.Damage;
+            gameObject.GetComponent<MedicComponent>().HealingRadius = options.HealingRadius;
 
             return gameObject;
         }
@@ -51,6 +55,8 @@ namespace EntityFactoryDto
             {
                 case EntityType.Shooter:
                     return ResourceLoader.GetShooterPrefab();
+                case EntityType.Medic:
+                    return ResourceLoader.GetMedicPrefab();
             }
 
             return null;

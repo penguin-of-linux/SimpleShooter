@@ -23,9 +23,11 @@ namespace Controllers
             {
                 Position = new Vector2(15, 5),
                 Team = Team.Neutral,
-                EntityType = EntityType.Shooter,
+                EntityType = EntityType.Medic,
                 Damage = 20,
-                Health = 100
+                Health = 100,
+                HealingPower = 5,
+                HealingRadius = 3
             });
             gameStateController.AddEntity(player);
         }

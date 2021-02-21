@@ -13,7 +13,7 @@ namespace Components
 
             if (clickedLeft)
             {
-                ShootComponent.Direction = mouseDirection;
+                //ShootComponent.Direction = mouseDirection;
             }
 
             UpdatePlayerDirection();
