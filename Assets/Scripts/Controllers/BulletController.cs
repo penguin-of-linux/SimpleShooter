@@ -1,4 +1,4 @@
-﻿using Controllers.UnitsController;
+﻿using Components;
 using UnityEngine;
 
 namespace Controllers
@@ -8,25 +8,19 @@ namespace Controllers
         private void Start()
         {
             Destroy(gameObject, 5f);
+            gameStateController = GameObject.Find(nameof(GameStateController))?.GetComponent<GameStateController>();
         }
 
         public void OnTriggerEnter2D(Collider2D other)
         {
-            var target = other.GetComponent<UnitBaseController>();
-            if (target is PlayerController)
-                ;
+            var target = other.GetComponent<HealthComponent>();
             if (target != null)
             {
-                var gameController = GameObject.Find(nameof(GameController))?.GetComponent<GameController>();
-                if (gameController != null)
-                {
-                    var map = gameController.Map;
-                
-                    Destroy(target.gameObject);
-                    map.Units.Remove(target.Unit.Id);
-                }
+                gameStateController.DestroyEntity(target.gameObject);
             }
             Destroy(gameObject);
         }
+
+        private GameStateController gameStateController;
     }
 }
