@@ -1,10 +1,15 @@
-﻿using Controllers.UnitsController;
+﻿using System;
+using Controllers.UnitsController;
+using Core.MapDto.MapObjects;
 using UnityEngine;
 
 namespace Controllers
 {
-    public class BulletController : MonoBehaviour
+    public class BulletController : MonoBehaviour, IHaveMapObjectId
     {
+        // Host id
+        public Guid MapObjectId { get; set; }
+        
         private void Start()
         {
             Destroy(gameObject, 5f);
@@ -21,7 +26,8 @@ namespace Controllers
                     var map = gameController.Map;
 
                     var entity = map.Entities[target.Entity.Id];
-                    entity.Health -= 50;
+                    var host = (Unit)map.Entities[MapObjectId];
+                    entity.Health -= host.Damage;
                     if (entity.Health <= 0)
                     {
                         Destroy(target.gameObject);

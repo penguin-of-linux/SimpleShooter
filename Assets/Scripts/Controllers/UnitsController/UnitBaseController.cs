@@ -41,6 +41,7 @@ namespace Controllers.UnitsController
                 direction = direction.normalized;
                 var bullet = Instantiate(bulletPrefab, null);
                 bullet.GetComponent<Rigidbody2D>().AddForce(direction * bulletForce);
+                bullet.GetComponent<BulletController>().MapObjectId = Entity.Id;
                 bullet.transform.rotation = Geometry.GetQuaternionFromCathetuses(direction);
 
                 bullet.transform.position = transform.position.ToVector2() + direction;
