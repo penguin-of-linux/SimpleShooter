@@ -106,7 +106,7 @@ namespace Controllers
                 return ResourceLoader.GetBotPrefab();
         
             if (unit is Player) 
-                return ResourceLoader.GetPlayerPrefab();
+                return ResourceLoader.GetMedicPrefab();
 
             return null;
         }

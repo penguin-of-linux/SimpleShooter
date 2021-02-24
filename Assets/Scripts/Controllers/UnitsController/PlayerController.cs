@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Controllers.UnitsController
 {
-    public class PlayerController : ShootUnitController
+    public class PlayerController : MedicController
     {
         public override void Start()
         {
@@ -55,7 +55,7 @@ namespace Controllers.UnitsController
 
             if (clickedLeft)
             {
-                Shoot(mouseDirection);
+                //Shoot(mouseDirection);
             }
 
             UpdatePlayerDirection();
