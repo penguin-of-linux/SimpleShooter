@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Controllers.UnitsController
 {
-    public class PlayerController : UnitBaseController
+    public class PlayerController : ShootUnitController
     {
         public override void Start()
         {

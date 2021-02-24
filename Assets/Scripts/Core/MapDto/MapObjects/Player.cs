@@ -1,6 +1,6 @@
 namespace Core.MapDto.MapObjects
 {
-    public class Player : Unit
+    public class Player : ShootUnit
     {
         public bool Dead;
     }

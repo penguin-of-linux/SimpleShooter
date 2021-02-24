@@ -26,7 +26,7 @@ namespace Controllers
                     var map = gameController.Map;
 
                     var entity = map.Entities[target.Entity.Id];
-                    var host = (Unit)map.Entities[MapObjectId];
+                    var host = (ShootUnit)map.Entities[MapObjectId];
                     entity.Health -= host.Damage;
                     if (entity.Health <= 0)
                     {

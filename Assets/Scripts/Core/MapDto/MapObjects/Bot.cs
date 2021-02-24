@@ -1,6 +1,6 @@
 namespace Core.MapDto.MapObjects
 {
-    public class Bot : Unit
+    public class Bot : ShootUnit
     {
     }
 }

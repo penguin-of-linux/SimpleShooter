@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Controllers.UnitsController
 {
-    public class BotController : UnitBaseController
+    public class BotController : ShootUnitController
     {
         public override void Start()
         {

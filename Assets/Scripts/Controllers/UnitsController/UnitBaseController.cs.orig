@@ -9,6 +9,10 @@ namespace Controllers.UnitsController
             
             rigidBody = GetComponent<Rigidbody2D>();
             animator = GetComponent<Animator>();
+<<<<<<< HEAD
+            bulletPrefab = ResourceLoader.GetBulletPrefab();
+=======
+>>>>>>> b05bc5c... add medic
         }
 
         public virtual void FixedUpdate()
@@ -28,6 +32,10 @@ namespace Controllers.UnitsController
         }
 
         private readonly float accelerate = 10f;
+<<<<<<< HEAD
+        private const float bulletForce = 500;
+=======
+>>>>>>> b05bc5c... add medic
         
         private Animator animator;
         private Rigidbody2D rigidBody;

@@ -16,12 +16,12 @@ namespace Controllers.UnitsController
 
             Entity = map.Entities[MapObjectId];
         }
-
+        
         public virtual void Update()
         {
             var position = transform.position;
             healthBar.transform.position = new Vector3(position.x, position.y + 0.4f, position.z);
-            
+
             var health = healthBar.transform.GetChild(0);
             health.transform.localScale = new Vector3(Entity.Health / 100f, 1, 1);
         }
@@ -35,8 +35,7 @@ namespace Controllers.UnitsController
         
         public Entity Entity { get; set; }
         public Guid MapObjectId { get; set; }
-        
 
-        private Map map;
+        protected Map map;
     }
 }
