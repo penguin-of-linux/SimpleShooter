@@ -6,34 +6,20 @@ using Core.MapDto.MapObjects;
 using UnityEngine;
 namespace Controllers.UnitsController
 {
-    public abstract class UnitBaseController : MonoBehaviour, IHaveMapObjectId
+    public abstract class UnitBaseController : EntityBaseController
     {
-        public Guid MapObjectId { get; set; }
-        public Unit Unit { get; set; }
-        
         public virtual void Start()
         {
+            base.Start();
+            
             rigidBody = GetComponent<Rigidbody2D>();
             animator = GetComponent<Animator>();
             bulletPrefab = ResourceLoader.GetBulletPrefab();
-
-            healthBar = Instantiate(ResourceLoader.GetHealthBarPrefab());
         }
 
         public virtual void FixedUpdate()
         {
             animator.SetFloat(speedAnimatorVariable, rigidBody.velocity.magnitude);
-        }
-
-        public virtual void Update()
-        {
-            var position = transform.position;
-            healthBar.transform.position = new Vector3(position.x, position.y + 0.4f, position.z);
-        }
-
-        public void OnDestroy()
-        {
-            Destroy(healthBar);
         }
 
         protected void MoveTo(Vector2 cords)
@@ -65,10 +51,11 @@ namespace Controllers.UnitsController
 
         protected (bool, Unit) UpdateTarget(Unit target, Map map)
         {
-            if (target != null && map.Units.ContainsKey(target.Id))
+            if (target != null && map.Entities.ContainsKey(target.Id))
                 return (false, target);
 
-            var newTarget = map.Units.Values.FirstOrDefault(x => x.Team != Unit.Team && x.Team != Team.Neutral);
+            var team = ((Unit)Entity).Team;
+            var newTarget = map.Units.FirstOrDefault(x => x.Team != team && x.Team != Team.Neutral);
             return (true, newTarget);
         }
         
@@ -97,8 +84,6 @@ namespace Controllers.UnitsController
         private readonly TimeSpan shootPeriod = TimeSpan.FromSeconds(0.25);
         private readonly float accelerate = 10f;
         private const float bulletForce = 500;
-
-        private GameObject healthBar;
         
         private Animator animator;
         private Rigidbody2D rigidBody;

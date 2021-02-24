@@ -12,18 +12,21 @@ namespace Controllers
 
         public void OnTriggerEnter2D(Collider2D other)
         {
-            var target = other.GetComponent<UnitBaseController>();
-            if (target is PlayerController)
-                ;
+            var target = other.GetComponent<EntityBaseController>();
             if (target != null)
             {
                 var gameController = GameObject.Find(nameof(GameController))?.GetComponent<GameController>();
                 if (gameController != null)
                 {
                     var map = gameController.Map;
-                
-                    Destroy(target.gameObject);
-                    map.Units.Remove(target.Unit.Id);
+
+                    var entity = map.Entities[target.Entity.Id];
+                    entity.Health -= 50;
+                    if (entity.Health <= 0)
+                    {
+                        Destroy(target.gameObject);
+                        map.Entities.Remove(target.Entity.Id);
+                    }
                 }
             }
             Destroy(gameObject);

@@ -26,8 +26,10 @@ namespace Controllers
 
         void Generate()
         {
-            var redCount = map.Units.Values.Count(x => x.Team == Team.Red);
-            var blueCount = map.Units.Values.Count(x => x.Team == Team.Blue);
+            var units = map.Units.ToArray();
+            
+            var redCount = units.Count(x => x.Team == Team.Red);
+            var blueCount = units.Count(x => x.Team == Team.Blue);
 
             var team = blueCount >= redCount ? Team.Red : Team.Blue;
         
@@ -39,7 +41,7 @@ namespace Controllers
                 Cords = cords,
                 Team = team
             };
-            map.Units[bot.Id] = bot;
+            map.Entities[bot.Id] = bot;
         }
 
         private Map map;

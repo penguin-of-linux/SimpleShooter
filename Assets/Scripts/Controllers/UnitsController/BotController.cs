@@ -13,14 +13,14 @@ namespace Controllers.UnitsController
             var gameController = GameObject.Find(nameof(GameController))?.GetComponent<GameController>();
             if (gameController != null) map = gameController.Map;
 
-            Unit = map.Units[MapObjectId];
+            Entity = (Bot)map.Entities[MapObjectId];
         }
 
         public override void FixedUpdate()
         {
             base.FixedUpdate();
 
-            var botTileCords = Unit.Cords.ToVectorInt();
+            var botTileCords = Entity.Cords.ToVectorInt();
 
             var (updated, newTarget) = UpdateTarget(target, map);
             target = newTarget;
@@ -29,16 +29,16 @@ namespace Controllers.UnitsController
             var targetCords = target.Cords;
             var targetTileCords = targetCords.ToVectorInt();
 
-            var direction = (target.Cords - Unit.Cords).normalized;
+            var direction = (target.Cords - Entity.Cords).normalized;
             if (CanShoot(direction, target))
             {
                 Shoot(direction);
                 return;
             }
 
-            if (Unit.Cords.CloseToPoint(targetCords)) return;
+            if (Entity.Cords.CloseToPoint(targetCords)) return;
 
-            if (localPathTarget == null || Unit.Cords.CloseToPoint(localPathTarget.Value) || updated)
+            if (localPathTarget == null || Entity.Cords.CloseToPoint(localPathTarget.Value) || updated)
             {
                 var playerTile = map[targetTileCords];
                 var botTile = map[botTileCords];

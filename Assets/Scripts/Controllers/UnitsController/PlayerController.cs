@@ -13,11 +13,6 @@ namespace Controllers.UnitsController
         
             var crossHair = ResourceLoader.GetCrossHairTexture();
             Cursor.SetCursor(crossHair, new Vector2(crossHair.width / 2, crossHair.height / 2), CursorMode.ForceSoftware);
-
-            var gameController = GameObject.Find(nameof(GameController))?.GetComponent<GameController>();
-            if (gameController != null) map = gameController.Map;
-
-            Unit = map.Units[MapObjectId];
         }
 
         public override void FixedUpdate()

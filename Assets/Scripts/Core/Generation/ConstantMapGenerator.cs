@@ -28,6 +28,8 @@ namespace Core.Generation
             AddPlayer(map);
             AddBots(map);
 
+            AddBoxes(map);
+
             return map;
         }
 
@@ -72,7 +74,7 @@ namespace Core.Generation
                 Cords = new Vector2(15, 5),
                 Team = Team.Neutral
             };
-            map.Units[player.Id] = player;
+            map.Entities[player.Id] = player;
         }
 
         private static void AddBots(Map map)
@@ -85,8 +87,17 @@ namespace Core.Generation
                     Cords = new Vector2(9.5f, 8.5f),
                     Team = Team.Blue
                 };
-                map.Units[bot.Id] = bot;
+                map.Entities[bot.Id] = bot;
             }
+        }
+
+        private static void AddBoxes(Map map)
+        {
+            var box = new Box
+            {
+                Cords = new Vector2(map.Width - 2, 4.5f)
+            };
+            map.Entities[box.Id] = box;
         }
     }
 }

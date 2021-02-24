@@ -25,23 +25,23 @@ namespace Controllers
             HandleKeyboard();
 
             var keysToDelete = new List<Guid>();
-            foreach (var kvp in units)
+            foreach (var kvp in entities)
             {
-                if (Map.Units.ContainsKey(kvp.Key))
-                    Map.Units[kvp.Key].Cords = kvp.Value.transform.position.AsVector2();
+                if (Map.Entities.ContainsKey(kvp.Key))
+                    Map.Entities[kvp.Key].Cords = kvp.Value.transform.position.AsVector2();
                 else
                     keysToDelete.Add(kvp.Key);
             }
 
             foreach (var key in keysToDelete)
-                units.Remove(key);
+                entities.Remove(key);
 
-            foreach (var kvp in Map.Units)
+            foreach (var kvp in Map.Entities)
             {
-                if (!units.ContainsKey(kvp.Key))
+                if (!entities.ContainsKey(kvp.Key))
                 {
-                    var unit = CreateUnit(kvp.Value);
-                    units[kvp.Key] = unit;
+                    var unit = CreateEntity(kvp.Value);
+                    entities[kvp.Key] = unit;
                 }
             }
         }
@@ -67,24 +67,36 @@ namespace Controllers
                 tilemap.SetTile(new Vector3Int(x, y, 0), tile);
             }
 
-            units = new Dictionary<Guid, GameObject>();
-            foreach (var unit in map.Units.Values)
+            entities = new Dictionary<Guid, GameObject>();
+            foreach (var entity in map.Entities.Values)
             {
-                var unitGameObject = CreateUnit(unit);
-                units[unit.Id] = unitGameObject;
+                var unitGameObject = CreateEntity(entity);
+                entities[entity.Id] = unitGameObject;
             }
         }
 
-        private GameObject CreateUnit(Unit unit)
+        private GameObject CreateEntity(Entity entity)
         {
-            var unitGameObject = Instantiate(GetUnitPrefab(unit));
-            unitGameObject.transform.position = unit.Cords;
-            
-            unitGameObject.GetComponent<SpriteRenderer>().color = ColorHelper.GetTeamColor(unit.Team);
-            
-            foreach(var component in unitGameObject.GetComponents<IHaveMapObjectId>())
-                component.MapObjectId = unit.Id;
+            GameObject unitGameObject = null;
+            if (entity is Unit unit)
+            {
+                unitGameObject = Instantiate(GetUnitPrefab(unit));
 
+                unitGameObject.GetComponent<SpriteRenderer>().color = ColorHelper.GetTeamColor(unit.Team);
+            }
+
+            if (entity is Box)
+            {
+                unitGameObject = Instantiate(ResourceLoader.GetBoxPrefab());
+            }
+
+            if (unitGameObject != null)
+            {
+                unitGameObject.transform.position = entity.Cords;
+                foreach (var component in unitGameObject.GetComponents<IHaveMapObjectId>())
+                    component.MapObjectId = entity.Id;
+            }
+            
             return unitGameObject;
         }
 
@@ -100,7 +112,7 @@ namespace Controllers
         }
     
         private GameObject player;
-        private Dictionary<Guid, GameObject> units;
+        private Dictionary<Guid, GameObject> entities;
 
         [SerializeField] private Tilemap path;
         [SerializeField] private Tilemap block;

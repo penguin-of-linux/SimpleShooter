@@ -17,7 +17,7 @@ TagManager:
   - Ground
   - Wall
   - 
-  - Unit
+  - Entity
   - 
   - Bullet
   - 
@@ -47,7 +47,7 @@ TagManager:
   - name: Wall
     uniqueID: 1143347269
     locked: 0
-  - name: Unit
+  - name: Entity
     uniqueID: 3028049821
     locked: 0
   - name: Bullet
