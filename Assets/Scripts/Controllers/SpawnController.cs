@@ -20,21 +20,19 @@ namespace Controllers
         void FixedUpdate()
         {
             var now = DateTime.Now;
-            if (lastSpawn + generatePeriod < now)
+            if (count < 100 && lastSpawn + generatePeriod < now)
             {
                 Generate();
                 lastSpawn = now;
+                count++;
             }
         }
 
         void Generate()
         {
-            var teams = FindObjectsOfType<TeamComponent>().Select(x => x.Team).ToArray();
-            var redCount = teams.Count(x => x == Team.Red);
-            var blueCount = teams.Count(x => x == Team.Blue);
+            var rnd = new System.Random();
 
-            var team = blueCount >= redCount ? Team.Red : Team.Blue;
-        
+            var team = rnd.Next(2) == 0 ? Team.Blue : Team.Red;
             var cords = team == Team.Red 
                 ? new Vector2(1.5f, 1.5f) 
                 : new Vector2(map.Width - 1.5f, map.Height - 1.5f);
@@ -49,9 +47,10 @@ namespace Controllers
             gameStateController.AddEntity(bot);
         }
 
+        private int count = 0;
         private GameStateController gameStateController;
         private Map map;
-        private readonly TimeSpan generatePeriod = TimeSpan.FromSeconds(1);
+        private readonly TimeSpan generatePeriod = TimeSpan.FromSeconds(0.1);
         private DateTime lastSpawn;
     }
 }
