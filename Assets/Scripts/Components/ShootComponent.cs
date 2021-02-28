@@ -1,4 +1,5 @@
 using System;
+using Controllers;
 using UnityEngine;
 
 namespace Components
@@ -20,6 +21,7 @@ namespace Components
             {
                 Direction = Direction.normalized;
                 var bullet = Instantiate(bulletPrefab, null);
+                bullet.GetComponent<BulletController>().Damage = Damage;
                 bullet.GetComponent<Rigidbody2D>().AddForce(Direction * bulletForce);
                 bullet.transform.rotation = Geometry.GetQuaternionFromCathetuses(Direction);
 

@@ -33,6 +33,10 @@ namespace Controllers
                 var position = target.transform.position;
                 Camera.main.SetPosition(position.x, position.y);
             }
+            else
+            {
+                target = FindObjectOfType<CameraTargetComponent>()?.gameObject;
+            }
         }
 
         private GameObject target;

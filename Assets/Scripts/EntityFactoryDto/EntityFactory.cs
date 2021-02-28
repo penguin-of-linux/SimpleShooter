@@ -10,12 +10,9 @@ namespace EntityFactoryDto
             var gameObject = CreateUnit(options);
             gameObject.AddComponent<PlayerKeyboardHandleComponent>();
             gameObject.AddComponent<CameraTargetComponent>();
-            //gameObject.AddComponent<ShootComponent>();
-            gameObject.AddComponent<PlayerMouseHandleComponent>();
+            gameObject.AddComponent<PlayerMouseRotationComponent>();
             gameObject.AddComponent<MedicComponent>();
 
-            //gameObject.GetComponent<ShootComponent>().Damage = options.Damage;
-            
             gameObject.GetComponent<MedicComponent>().HealingPower = options.Damage;
             gameObject.GetComponent<MedicComponent>().HealingRadius = options.HealingRadius;
 
@@ -26,7 +23,7 @@ namespace EntityFactoryDto
         {
             var gameObject = CreateUnit(options);
             gameObject.AddComponent<ShootComponent>();
-            gameObject.AddComponent<BotComponent>();
+            gameObject.AddComponent<BotComponent>();         
 
             gameObject.GetComponent<ShootComponent>().Damage = options.Damage;
 
