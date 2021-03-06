@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using Core.Generation;
+﻿using Core.Generation;
 using Core.MapDto;
-using Core.MapDto.MapObjects;
+using EntityFactoryDto;
 using UnityEngine;
 using UnityEngine.Tilemaps;
 
@@ -15,35 +13,34 @@ namespace Controllers
         void Awake()
         {
             ResourceLoader.Initialize();
+            
+            gameStateController = GameObject.Find(nameof(GameStateController))?.GetComponent<GameStateController>();
+            
             var map = ConstantMapGenerator.GenerateSimple();
             Map = map;
             RenderMap(map);
+            var player = EntityFactory.CreatePlayer(new EntityCreateOptions
+            {
+                Position = new Vector2(15, 5),
+                Team = Team.Neutral,
+                EntityType = EntityType.Medic,
+                Damage = 20,
+                Health = 100,
+                HealingPower = 5,
+                HealingRadius = 3
+            });
+            gameStateController.AddEntity(player);
+        }
+
+        void Start()
+        {
+            var crossHair = ResourceLoader.GetCrossHairTexture();
+            Cursor.SetCursor(crossHair, new Vector2(crossHair.width / 2, crossHair.height / 2), CursorMode.ForceSoftware);
         }
 
         void FixedUpdate()
         {
             HandleKeyboard();
-
-            var keysToDelete = new List<Guid>();
-            foreach (var kvp in units)
-            {
-                if (Map.Units.ContainsKey(kvp.Key))
-                    Map.Units[kvp.Key].Cords = kvp.Value.transform.position.AsVector2();
-                else
-                    keysToDelete.Add(kvp.Key);
-            }
-
-            foreach (var key in keysToDelete)
-                units.Remove(key);
-
-            foreach (var kvp in Map.Units)
-            {
-                if (!units.ContainsKey(kvp.Key))
-                {
-                    var unit = CreateUnit(kvp.Value);
-                    units[kvp.Key] = unit;
-                }
-            }
         }
 
         private void HandleKeyboard()
@@ -66,41 +63,10 @@ namespace Controllers
                 var tilemap = map[x, y].Type == TileType.Sand ? path : block;
                 tilemap.SetTile(new Vector3Int(x, y, 0), tile);
             }
-
-            units = new Dictionary<Guid, GameObject>();
-            foreach (var unit in map.Units.Values)
-            {
-                var unitGameObject = CreateUnit(unit);
-                units[unit.Id] = unitGameObject;
-            }
         }
 
-        private GameObject CreateUnit(Unit unit)
-        {
-            var unitGameObject = Instantiate(GetUnitPrefab(unit));
-            unitGameObject.transform.position = unit.Cords;
-            
-            unitGameObject.GetComponent<SpriteRenderer>().color = ColorHelper.GetTeamColor(unit.Team);
-            
-            foreach(var component in unitGameObject.GetComponents<IHaveMapObjectId>())
-                component.MapObjectId = unit.Id;
-
-            return unitGameObject;
-        }
-
-        private GameObject GetUnitPrefab(Unit unit)
-        {
-            if (unit is Bot) 
-                return ResourceLoader.GetBotPrefab();
-        
-            if (unit is Player) 
-                return ResourceLoader.GetPlayerPrefab();
-
-            return null;
-        }
-    
         private GameObject player;
-        private Dictionary<Guid, GameObject> units;
+        private GameStateController gameStateController;
 
         [SerializeField] private Tilemap path;
         [SerializeField] private Tilemap block;

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Components;
+using UnityEngine;
 
 namespace Controllers
 {
@@ -15,6 +16,8 @@ namespace Controllers
             cam = Camera.main;
             // ReSharper disable once PossibleNullReferenceException
             targetZoom = cam.orthographicSize;
+
+            target = FindObjectOfType<CameraTargetComponent>().gameObject;
         }
  
         // Update is called once per frame
@@ -24,6 +27,18 @@ namespace Controllers
             targetZoom -= scrollData * zoomFactor;
             targetZoom = Mathf.Clamp(targetZoom, 4.5f, 8f);
             cam.orthographicSize = Mathf.Lerp(cam.orthographicSize, targetZoom, Time.deltaTime * zoomLerpSpeed);
+
+            if (target != null)
+            {
+                var position = target.transform.position;
+                Camera.main.SetPosition(position.x, position.y);
+            }
+            else
+            {
+                target = FindObjectOfType<CameraTargetComponent>()?.gameObject;
+            }
         }
+
+        private GameObject target;
     }
 }

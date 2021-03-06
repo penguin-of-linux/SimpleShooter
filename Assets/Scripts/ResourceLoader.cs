@@ -34,14 +34,9 @@ public static class ResourceLoader
         }
     }
         
-    public static GameObject GetPlayerPrefab()
+    public static GameObject GetShooterPrefab()
     {
-        return playerPrefab;
-    }
-        
-    public static GameObject GetBotPrefab()
-    {
-        return botPrefab;
+        return shooterPrefab;
     }
 
     public static GameObject GetBoxPrefab()
@@ -63,8 +58,7 @@ public static class ResourceLoader
         
         healthBarPrefab = Resources.Load<GameObject>("Prefabs/HealthBar");
             
-        playerPrefab = Resources.Load<GameObject>("Prefabs/Units/Player");
-        botPrefab = Resources.Load<GameObject>("Prefabs/Units/Bot");
+        shooterPrefab = Resources.Load<GameObject>("Prefabs/Units/Shooter");
         medicPrefab = Resources.Load<GameObject>("Prefabs/Units/Medic/Medic");
         
         boxPrefab = Resources.Load<GameObject>("Prefabs/Box/Box");
@@ -88,8 +82,7 @@ public static class ResourceLoader
     private static GameObject bulletPrefab;
     private static GameObject healthBarPrefab;
 
-    private static GameObject playerPrefab;
-    private static GameObject botPrefab;
+    private static GameObject shooterPrefab;
     private static GameObject medicPrefab;
     
     private static GameObject boxPrefab;

@@ -1,5 +1,4 @@
 using Core.MapDto;
-using Core.MapDto.MapObjects;
 using Core.MapDto.Tiles;
 using UnityEngine;
 
@@ -25,8 +24,6 @@ namespace Core.Generation
             var map = GenerateFilled(width, height);
             
             FillBricks(map);
-            AddPlayer(map);
-            AddBots(map);
 
             return map;
         }
@@ -62,30 +59,6 @@ namespace Core.Generation
                 map[width - 2 - 1, height - j - 1] = new Brick(width - 2 - 1, height - j - 1);
                 map[j, height - 1 - 2] = new Brick(width - 2 - 1, height - 1 - 2);
                 map[width - j - 1, 2] = new Brick(width - j - 1, 2);
-            }
-        }
-
-        private static void AddPlayer(Map map)
-        {
-            var player = new Player
-            {
-                Cords = new Vector2(15, 5),
-                Team = Team.Neutral
-            };
-            map.Units[player.Id] = player;
-        }
-
-        private static void AddBots(Map map)
-        {
-            
-            for (var i = 0; i < 0; i++)
-            {
-                var bot = new Bot
-                {
-                    Cords = new Vector2(9.5f, 8.5f),
-                    Team = Team.Blue
-                };
-                map.Units[bot.Id] = bot;
             }
         }
     }
