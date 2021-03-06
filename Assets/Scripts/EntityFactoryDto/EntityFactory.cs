@@ -23,7 +23,9 @@ namespace EntityFactoryDto
         {
             var gameObject = CreateUnit(options);
             gameObject.AddComponent<ShootComponent>();
-            gameObject.AddComponent<BotComponent>();         
+            gameObject.AddComponent<BotComponent>();  
+            gameObject.AddComponent<CameraTargetComponent>();  
+            
 
             gameObject.GetComponent<ShootComponent>().Damage = options.Damage;
 
